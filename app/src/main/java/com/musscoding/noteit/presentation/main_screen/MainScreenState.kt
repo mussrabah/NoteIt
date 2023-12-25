@@ -1,4 +1,4 @@
-package com.musscoding.noteit.presentation.main
+package com.musscoding.noteit.presentation.main_screen
 
 import com.musscoding.noteit.domain.model.Note
 

@@ -2,11 +2,12 @@ package com.musscoding.noteit.domain.use_case
 
 import com.musscoding.noteit.domain.model.Note
 import com.musscoding.noteit.domain.repository.Repository
+import kotlinx.coroutines.flow.Flow
 
-class AddNote(
+class GetAllNotes(
     private val repository: Repository
 ) {
-    suspend operator fun invoke(note: Note) {
-        repository.insertNote(note)
+    operator fun invoke(): Flow<List<Note>> {
+        return repository.getAllNotes()
     }
 }

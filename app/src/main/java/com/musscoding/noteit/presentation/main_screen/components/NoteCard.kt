@@ -1,4 +1,4 @@
-package com.musscoding.noteit.presentation.main.components
+package com.musscoding.noteit.presentation.main_screen.components
 
 import android.os.Build
 import androidx.annotation.RequiresApi
@@ -50,7 +50,8 @@ fun NoteCard(
     note: Note,
     titleSize: TextUnit = 16.sp,
     textColor: Color = MaterialTheme.colorScheme.primary,
-    background: Color = MaterialTheme.colorScheme.primaryContainer
+    background: Color = MaterialTheme.colorScheme.primaryContainer,
+    onDeleteNote: () -> Unit
 ) {
     Box(
         modifier = modifier
@@ -222,7 +223,9 @@ fun NoteCard(
                 }
                 Spacer(modifier = Modifier.height(5.dp))
                 FloatingActionButton(
-                    onClick = { /*TODO*/ },
+                    onClick = {
+                              onDeleteNote()
+                    },
                     elevation = FloatingActionButtonDefaults.elevation(defaultElevation = 10.dp),
                     containerColor = MaterialTheme.colorScheme.background,
                     contentColor = MaterialTheme.colorScheme.onBackground,

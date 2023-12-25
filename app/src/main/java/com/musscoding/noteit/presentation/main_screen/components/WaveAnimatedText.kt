@@ -1,4 +1,4 @@
-package com.musscoding.noteit.presentation.main.components
+package com.musscoding.noteit.presentation.main_screen.components
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.AnimationVector1D

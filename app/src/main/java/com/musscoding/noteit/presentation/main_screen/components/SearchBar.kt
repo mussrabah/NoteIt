@@ -1,4 +1,4 @@
-package com.musscoding.noteit.presentation.main.components
+package com.musscoding.noteit.presentation.main_screen.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
