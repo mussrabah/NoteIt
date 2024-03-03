@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">NoteIt</string>
+    <string name="app_name" translatable="false">NoteIt</string>
+    <string name="web_client_id" translatable="false">567563108396-cj392sm2vh0rppgvmgo1iqu5iel8i4r2.apps.googleusercontent.com</string>
+    <string name="menu">Menu</string>
+    <string name="search_a_note">Search a note</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="delete">Delete</string>
+    <string name="send">Send</string>
+    <string name="labels">Labels</string>
+    <string name="this_note">%1$s this note</string>
+    <string name="enter_a_title">Enter a title</string>
+    <string name="add_check_button">Add check button</string>
+    <string name="open_text_options">Open text options</string>
+    <string name="change_font_color">Change font color</string>
+    <string name="change_font_background">Change font background</string>
+    <string name="choose_font_size">Choose font size</string>
+    <string name="please_fill_in_some_content">Please fill in some content</string>
+    <string name="add_note">Add note</string>
+    <string name="add_to_favorite">Add to favorite</string>
+    <string name="delete_this_note">Delete this note</string>
+    <string name="edit_this_note">Edit This Note</string>
+    <string name="create_a_note">Create a note</string>
+    <string name="sign_in">Sign in</string>
 </resources>

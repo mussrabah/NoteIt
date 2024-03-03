@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.musscoding.noteit" />
+                  <option name="mobileSdkAppId" value="1:567563108396:android:6ce159bcbe514ce48b5189" />
+                  <option name="projectId" value="note-app-56b5f" />
+                  <option name="projectNumber" value="567563108396" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
